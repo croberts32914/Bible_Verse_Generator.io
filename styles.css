@@ -1,0 +1,74 @@
+/* bacground for webpage */
+body {
+  background-size: cover;
+  font-family: Lucida Handwriting, Cursive; /* text type */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("garden.jpeg")
+}
+
+.background-container {
+  padding: 40px; /* changes the size of the container */
+  border: 8px double white; /* color of: Set a border around the big rectangle */
+  background-color: #997950; /* main container background color */
+  text-align: center; /* Center the text */
+  position: relative; /* Added relative positioning */
+
+
+  border-radius: 100px; /* Adjust the value for the roundness you prefer */
+}
+
+p {
+  margin: 0; /* Remove any default margins */
+}
+
+/* Main font size */
+#quote {
+  font-size: 24px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #0a2351;
+}
+
+h1 {
+  position: absolute;
+  top: -80px; /* Adjust the distance from the top as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  border-radius: 50% 50% 0 0;
+
+/* Gradient with 7 unique shades of yellow */
+  background: #004526; /* background- gods promise */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px; /* Adjust the font size as needed */
+  font-family: Papyrus, Fantasy; /* Adjust the font family as needed */
+  margin: 0;
+}
+
+#quote-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* Adjust the roundness as you like */
+  border: 1px inset pink;
+  background-color: white;
+  background-clip: padding-box; /* This is important for the border to show */
+}
+
+h1 {
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  color: white; /* gods promise text color and bodom border color */
+}
